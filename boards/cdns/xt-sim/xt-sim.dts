@@ -6,11 +6,11 @@
 /dts-v1/;
 
 #include <freq.h>
-#include "sample_controller.dtsi"
+#include "hifi5s_ao_7.dtsi"
 
 / {
 	model = "xt-sim";
-	compatible = "cdns,xtensa-sample-controller";
+	compatible = "cdns,hifi5s_ao_7";
 
 	cpus {
 		timebase-frequency = <DT_FREQ_M(2)>;
