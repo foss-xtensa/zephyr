@@ -1,0 +1,10 @@
+/*
+ * Copyright (c) 2026 Cadence Design Systems, Inc.
+ *
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+/* Secondary CPUs must be left for run-time start. */
+&cpu1 {
+	zephyr,deferred-start;
+};
